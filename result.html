@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz Result</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Your Quiz Result</h2>
+    <p id="score"></p>
+    <a href="quiz.html">Take Another Quiz</a>
+  </div>
+  <script>
+    const result = JSON.parse(localStorage.getItem('quizResult'));
+    document.getElementById('score').innerText =
+      `Correct: ${result.correct}, Wrong: ${result.wrong}, Score: ${result.correct * 2}`;
+  </script>
+</body>
+</html>

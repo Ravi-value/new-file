@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #699ae2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: rgb(207, 110, 110);
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 90%;
+  max-width: 400px;
+}
+
+input, button {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 1em;
+}
+
+.topic-buttons button {
+  margin: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+* {
+  margin: 0;
+  position: 0;
+  box-sizing: border-box;
+  font-family: 'poppins',sans-serif;
+}
+header{
+      position:fixed;       
+      top:0;    
+      left: 0%;
+      width:100%;
+      padding: 20px 100px;
+      background-color:red ;
+      display: flex;
+      justify-content:space-between;
+      align-items: center;
+      z-index:99;
+} 
+Login{
+  font-size: 1%;
+  position: fixed;
+  left:0%;
+  
+
+}
+.logo{
+  font-size: 2em;
+  color:#fff;
+  user-select: none;
+}
+.nevigation a {
+  position: relative;
+  font-size:1.1em;
+  color:#fff;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 40px;
+}
+
+.navigation .btnLogin-popup {
+  width: 130px;
+  height: 50px;
+  background:transparent;
+  border:2px solid #fff;
+  outline:none;
+  border-radius: 6px;
+  cursor:pointer;
+  font-size: 1.1em;
+  color: #fff;
+  font-weight: 500;
+  margin-left: 40px;
+}
